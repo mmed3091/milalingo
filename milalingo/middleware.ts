@@ -1,7 +1,7 @@
 import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
 
 // Define public routes using createRouteMatcher
-const isPublic = createRouteMatcher([]);
+const isPublic = createRouteMatcher(["/"]);
 
 // Clerk middleware setup
 export default clerkMiddleware(async (auth, request) => {
