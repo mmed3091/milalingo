@@ -19,7 +19,7 @@ export const Header = () => {
                 </ClerkLoading>
                 <ClerkLoaded>
                     <SignedIn>
-                        <UserButton/>
+                        <UserButton />
                     </SignedIn>
                     <SignedOut>
                         <SignInButton mode="modal">
